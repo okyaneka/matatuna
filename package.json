@@ -1,0 +1,40 @@
+{
+  "name": "matatuna",
+  "version": "0.0.0",
+  "description": "matatuna",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okyaneka/matatuna.git"
+  },
+  "author": "okyaneka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okyaneka/matatuna/issues"
+  },
+  "homepage": "https://github.com/okyaneka/matatuna#readme",
+  "dependencies": {
+    "wired-elements": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "extract-loader": "^4.0.3",
+    "file-loader": "^5.0.2",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
